@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.cards{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+flex-grow: 1;
+
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(249, 217, 175);
+}
+
+.card img{
+    width: 100%;
+}
+
+.card:hover{
+    transform: rotate(7deg);
+}
+
+.card h1 ,.card p{
+    transition: 0.5s;
+}
+
+.card :hover{
+    transform: rotate(7deg);
+ 
+}
